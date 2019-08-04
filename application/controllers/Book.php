@@ -22,4 +22,9 @@ class Book extends CI_Controller {
 	{
 		$this->load->view('index_demo');
 	}
+    
+    public function edit()
+    {
+        $this->load->view('edit_demo');
+    }
 }
